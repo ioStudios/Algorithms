@@ -16,6 +16,7 @@ private:
     };
 
     int V;
+    bool visited[100];
     std::vector<adjList> G;
 public:
     Graph(int vertices);
